@@ -1,38 +1,65 @@
 const questions = [
   {
-    question: "What is the capital of France?",
+    question: "What is the capital of India?",
     answers: [
-      { text: "Berlin", correct: false },
-      { text: "Madrid", correct: false },
-      { text: "Paris", correct: true },
-      { text: "London", correct: false }
+      { text: "Delhi", correct: true },
+      { text: "Mumbai", correct: false },
+      { text: "London", correct: false },
+      { text: "Goa", correct: false }
+    ]
+  },
+   {
+    question: "Which planet is known as the Red Planet?",
+    answers: [
+      { text: "Jupiter", correct: false },
+      { text: "Mars", correct: true },
+      { text: "Venus", correct: false },
+      { text: "Saturn", correct: false }
+    ]
+  },
+ {
+    question: "What is the chemical symbol for water?",
+    answers: [
+      { text: "WO", correct: false },
+      { text: "HO", correct: false },
+      { text: "H2O", correct: true },
+      { text: "OH2", correct: false }
+    ]
+  },
+   {
+    question: "What is the largest mammal in the world?",
+    answers: [
+      { text: "Elephant", correct: false },
+      { text: "Great White Shark", correct: false },
+      { text: "Blue Whale", correct: true },
+      { text: "Giraffe", correct: false }
+    ]
+  },
+   {
+    question: "What is the smallest prime number?",
+    answers: [
+      { text: "0", correct: false },
+      { text: "1", correct: false },
+      { text: "2", correct: true },
+      { text: "3", correct: false }
     ]
   },
   {
-    question: "Which language runs in a web browser?",
+    question: "What is the national animal of India?",
     answers: [
-      { text: "Java", correct: false },
-      { text: "C", correct: false },
-      { text: "Python", correct: false },
-      { text: "JavaScript", correct: true }
+      { text: "Bengal Tiger", correct: true },
+      { text: "Indian Elephant", correct: false },
+      { text: "Peacock", correct: false },
+      { text: "Lion", correct: false }
     ]
   },
   {
-    question: "What does CSS stand for?",
+    question: "Which Indian city is famous as the 'Pink City'?",
     answers: [
-      { text: "Central Style Sheets", correct: false },
-      { text: "Cascading Style Sheets", correct: true },
-      { text: "Cascading Simple Sheets", correct: false },
-      { text: "Cars SUVs Sailboats", correct: false }
-    ]
-  },
-  {
-    question: "What year was JavaScript launched?",
-    answers: [
-      { text: "1996", correct: false },
-      { text: "1995", correct: true },
-      { text: "1994", correct: false },
-      { text: "None of the above", correct: false }
+      { text: "Jaipur", correct: true },
+      { text: "Bhopal", correct: false },
+      { text: "Udaipur", correct: false },
+      { text: "Jodhpur", correct: false }
     ]
   }
 ];
