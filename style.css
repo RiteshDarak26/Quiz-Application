@@ -1,0 +1,127 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #72edf2 10%, #5151e5 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  background: #fff;
+  padding: 2.5rem 3rem;
+  border-radius: 1rem;
+  max-width: 700px;
+  width: 100%;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  user-select: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+#question {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  color: #34495e;
+  min-height: 80px;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 14px 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  background: #3498db;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 8px 15px rgba(52, 152, 219, 0.3);
+  transition: background-color 0.4s ease, box-shadow 0.4s ease, transform 0.2s ease;
+  user-select: none;
+}
+
+.btn:hover:not(:disabled) {
+  background-color: #2980b9;
+  box-shadow: 0 12px 20px rgba(41, 128, 185, 0.4);
+  transform: translateY(-3px);
+}
+
+.btn:disabled {
+  background: #bdc3c7;
+  box-shadow: none;
+  cursor: default;
+  color: #7f8c8d;
+}
+
+.correct {
+  background-color: #2ecc71 !important;
+  box-shadow: 0 8px 15px rgba(46, 204, 113, 0.4) !important;
+  color: white !important;
+}
+
+.wrong {
+  background-color: #e74c3c !important;
+  box-shadow: 0 8px 15px rgba(231, 76, 60, 0.4) !important;
+  color: white !important;
+}
+
+#timer {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #e67e22;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+.hide {
+  display: none;
+}
+
+#result-container {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+#restart-btn {
+  margin-top: 20px;
+  padding: 14px 28px;
+  font-size: 1.1rem;
+  background-color: #e67e22;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(230, 126, 34, 0.4);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  user-select: none;
+}
+
+#restart-btn:hover {
+  background-color: #d35400;
+  transform: translateY(-2px);
+}

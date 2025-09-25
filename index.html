@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Online Quiz Application</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Online Quiz</h1>
+    <div id="quiz-container">
+      <div id="question-container">
+        <div id="question">Question text</div>
+        <div id="answer-buttons" class="btn-grid"></div>
+      </div>
+      <div id="timer">Time Left: <span id="time">20</span>s</div>
+      <button id="next-btn" class="next-btn btn" disabled>Next</button>
+    </div>
+    <div id="result-container" class="hide">
+      <h2>Quiz Completed!</h2>
+      <p>Your Score: <span id="score"></span>/<span id="total"></span></p>
+      <button id="restart-btn" class="btn">Restart Quiz</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
